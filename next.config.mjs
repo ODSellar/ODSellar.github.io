@@ -4,7 +4,7 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-
+  output: 'export',
   images: {
     loader: 'akamai',
     path: '',
