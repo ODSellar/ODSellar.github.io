@@ -19,6 +19,9 @@ jobs:
         with:
           node-version: '16.x'
 
+      - name: Installing my pnpm
+        run: npm install -g pnpm
+
       - name: Installing my packages
         run: pnpm ci
 
