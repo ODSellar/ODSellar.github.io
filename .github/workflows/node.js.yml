@@ -23,7 +23,7 @@ jobs:
         run: npm install -g pnpm
 
       - name: Installing my packages
-        run: pnpm ci
+        run: pnpm install --frozen-lockfile
 
       - name: Build my App
         run: pnpm run build && pnpm run export && touch ./out/.nojekyll
