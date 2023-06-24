@@ -1,3 +1,4 @@
+import LightDarkToggle from '@/components/LightDarkToggle';
 import '../styles/globals.css';
 import { Providers } from './providers';
 import { Metadata } from 'next';
@@ -16,7 +17,10 @@ export default function RootLayout({ children }: IProps) {
     <html lang="en" suppressHydrationWarning>
       <body>
         <Providers>
-          <div className="absolute flex h-full w-full flex-col ">{children}</div>
+          <div className="absolute flex h-full w-full flex-col ">
+            <LightDarkToggle />
+            {children}
+          </div>
         </Providers>
       </body>
     </html>

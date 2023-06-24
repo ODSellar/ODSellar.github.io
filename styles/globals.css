@@ -8,12 +8,22 @@
   }
 
   body {
-    @apply list-none bg-stone-100 font-sans text-stone-700 dark:bg-black dark:text-stone-200;
+    @apply list-none bg-stone-100 font-sans text-stone-700 dark:bg-black dark:text-stone-200 duration-500;
+  }
+
+  p {
+    @apply text-lg;
   }
 }
 
 @layer utilities {
   .pb-safe {
     padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+
+@layer components {
+  .heading {
+    @apply text-3xl font-serif;
   }
 }
