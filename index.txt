@@ -1,9 +1,9 @@
-1:HL["./_next/static/css/9efc55e1771a524d.css",{"as":"style"}]
-0:[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"./_next/static/css/9efc55e1771a524d.css","precedence":"next"}]],["$L3",null]]]]
-4:I{"id":"335","chunks":["185:static/chunks/app/layout-59a6d8bc953f0a69.js"],"name":"Providers","async":false}
-5:I{"id":"9311","chunks":["272:static/chunks/webpack-c260904518f75785.js","159:static/chunks/9fed808d-9aed0b7ce900c449.js","890:static/chunks/890-7071384bcd922848.js"],"name":"","async":false}
-6:I{"id":"6467","chunks":["272:static/chunks/webpack-c260904518f75785.js","159:static/chunks/9fed808d-9aed0b7ce900c449.js","890:static/chunks/890-7071384bcd922848.js"],"name":"","async":false}
-7:I{"id":"9056","chunks":["272:static/chunks/webpack-c260904518f75785.js","159:static/chunks/9fed808d-9aed0b7ce900c449.js","890:static/chunks/890-7071384bcd922848.js"],"name":"","async":false}
-8:I{"id":"3291","chunks":["931:static/chunks/app/page-0bc42b95c27b7328.js"],"name":"","async":false}
+1:HL["./_next/static/css/f9fff40621bf78af.css",{"as":"style"}]
+0:["kZVxF-2uS1HRcPw4YrJ5I",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"./_next/static/css/f9fff40621bf78af.css","precedence":"next"}]],["$L3",null]]]]]
+4:I{"id":"4625","chunks":["185:static/chunks/app/layout-0652ba4feca65ece.js"],"name":"Providers","async":false}
+5:I{"id":"8304","chunks":["272:static/chunks/webpack-f24782040793e584.js","181:static/chunks/813dbf89-61675532b86e7970.js","825:static/chunks/825-7ffa2d6b87fb4323.js"],"name":"","async":false}
+6:I{"id":"1571","chunks":["272:static/chunks/webpack-f24782040793e584.js","181:static/chunks/813dbf89-61675532b86e7970.js","825:static/chunks/825-7ffa2d6b87fb4323.js"],"name":"","async":false}
+7:I{"id":"3092","chunks":["272:static/chunks/webpack-f24782040793e584.js","181:static/chunks/813dbf89-61675532b86e7970.js","825:static/chunks/825-7ffa2d6b87fb4323.js"],"name":"","async":false}
+8:I{"id":"7090","chunks":["693:static/chunks/693-e70387bf6756af10.js","931:static/chunks/app/page-674c5a815c9b3315.js"],"name":"","async":false}
 2:[["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"children":["$","$L4",null,{"children":["$","div",null,{"className":"absolute flex h-full w-full flex-col ","children":["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L6",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":[["$","$L7",null,{"propsForComponent":{"params":{}},"Component":"$8"}],null],"segment":"__PAGE__"},"styles":[]}]}]}]}]}],null]
-3:[[["$","meta",null,{"charSet":"utf-8"}],["$","title",null,{"children":"Cottno"}],["$","meta",null,{"name":"description","content":"Welcome to Cottno"}],null,null,null,null,null,null,null,null,["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}],null,null,null,null,null,null,null,null,null,null,[]],[null,null,null,null],null,null,[null,null,null,null,null],null,null,null,null,null]
+3:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Oliver Sellar"}],["$","meta","2",{"name":"description","content":"Hi, I'm Oliver Sellar, a Full-Stack Developer based in the UK."}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
