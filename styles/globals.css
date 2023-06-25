@@ -11,19 +11,33 @@
     @apply list-none bg-stone-100 font-sans text-stone-700 dark:bg-black dark:text-stone-200 duration-500;
   }
 
+  a {
+    @apply text-orange-600 dark:text-orange-500 hover:text-orange-500 dark:hover:text-orange-400;
+  }
+
   p {
+    @apply text-lg ml-1;
+  }
+
+  li {
     @apply text-lg;
+  }
+
+  h1 {
+    @apply text-5xl font-serif mb-4;
+  }
+
+  h2 {
+    @apply text-3xl font-serif;
+  }
+
+  h3 {
+    @apply text-2xl font-serif;
   }
 }
 
 @layer utilities {
   .pb-safe {
     padding-bottom: env(safe-area-inset-bottom);
-  }
-}
-
-@layer components {
-  .heading {
-    @apply text-3xl font-serif;
   }
 }

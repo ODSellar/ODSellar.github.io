@@ -15,7 +15,7 @@ export default function LightDarkToggle(): ReactElement | null {
 
   return (
     <div
-      className=" absolute top-0 right-0 m-5 flex bg-black dark:bg-stone-100 text-stone-200 dark:text-stone-700 p-1 rounded-full"
+      className=" absolute top-0 right-0 m-5 flex bg-stone-700 dark:bg-stone-100 text-stone-200 dark:text-stone-700 p-1 rounded-full"
       onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
     >
       <div className=" absolute h-5 w-5 -m-0.5 rounded-full bg-stone-200 dark:bg-stone-700 dark:ml-4 duration-300" />
