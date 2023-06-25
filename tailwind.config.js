@@ -11,6 +11,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       sans: ['Roboto', 'Arial', 'sans-serif'],
+      serif: ['Roboto Slab', 'serif'],
     },
     maxWidth: {
       '1/4': '25%',

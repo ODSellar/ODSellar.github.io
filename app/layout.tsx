@@ -3,8 +3,8 @@ import { Providers } from './providers';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Cottno',
-  description: 'Welcome to Cottno',
+  title: 'Oliver Sellar',
+  description: "Hi, I'm Oliver Sellar, a Full-Stack Developer based in the UK.",
 };
 
 interface IProps {
