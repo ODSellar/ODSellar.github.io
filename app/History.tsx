@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import HistoryCard from '@/components/HistoryCard';
 import Link from 'next/link';
 import { ReactElement } from 'react';
@@ -15,28 +16,28 @@ export default function History({}: IProps): ReactElement {
         description={
           <>
             <p>
-              Metricell is where I really found my stride as a Software Developer. Working in a team
-              of about 15 people in offices around the world to deliver tools used by mobile
-              networks in the UK and around the world. Initially working to fix bugs, then quickly
-              on to developing small features and after about a year pushing forward the development
-              of larger features, conducting code reviews, and helping to move the processes and
-              tools used by the department forwards.
+              Metricell is where I found my stride as a Software Developer. Working in a team of
+              about 15 people in offices worldwide to deliver tools used by mobile networks
+              worldwide. Initially, I worked to fix bugs, then quickly moved on to developing small
+              features. After about a year, I started pushing forward the development of more
+              prominent features, conducting code reviews, and helping to drive the processes and
+              tools used by the department forward.
             </p>
             <br />
             <p>
               Currently, I am focused more on larger projects to gain experience designing larger
-              systems. One of the larger projects that I&apos;ve worked on so far is the Asset
-              Locator project, this is a tool that is designed for use by councils to lease out
-              local assets to third parties such as mobile network companies. The aim of this
-              project is to help facilitate the rollout of new technologies like 5G that require
-              more densely clustered cell towers than previous generations of network technology.
+              systems. One of the larger projects I've worked on is the Asset Locator project; this
+              tool is intended for councils to lease out local assets to third parties, such as
+              mobile network companies. This project aims to help facilitate the rollout of new
+              technologies like 5G that require more densely clustered cell towers than previous
+              generations of network technology.
             </p>
             <br />
             <p>
-              At Metricell I learnt much more about the full development process from requirements
-              gathering all the way to CI/CD and how to effectively work with a team of developers.
-              I started to expand my knowledge of software development and engineering in my spare
-              time by reading books, following software blogs, and working on personal projects.
+              At Metricell, I learnt much more about the full development process, from requirements
+              gathering to CI/CD and how to effectively work with a team of developers. In my spare
+              time, I started expanding my software development and engineering knowledge by reading
+              books, following software blogs, and working on personal projects.
             </p>
           </>
         }
@@ -48,47 +49,49 @@ export default function History({}: IProps): ReactElement {
         description={
           <>
             <p>
-              The original idea behind Cottno was to create a website where climbers could add and
-              search for outdoor climbs on a map. Climbing is one of my hobbies and the main
-              motivations behind this project were to develop my understanding of mapping software,
-              to explore new technology, and to actually create a real functional website from start
-              to finish.
+              The idea behind Cottno was to create a mapping website where communities, such as
+              climbers, divers, birdwatchers, etc., could search for and add points of interest for
+              their community (outdoor climbs, dive locations, bird-watching hides, etc.). Climbing
+              is one of my hobbies, and the main motivations behind this project were to develop my
+              understanding of mapping software and techniques, explore new technology, and create
+              an actual functional website from start to finish.
             </p>
             <br />
             <p>
-              One of the big challenges of this project was deciding on which technology to use and
-              learning them, as many of these technologies I would be using for the first time. The
-              final tech stack was Next js for the front end and authentication, then C# .NET Core
-              for the rest of the backend with a Postgres database, Tailwind for all things CSS,
-              Pixi.js as a 2D graphics engine for the map, and XUnit.
+              After months of work, I developed a prototype website I was happy with. I used Next.js
+              for the front end and authentication, then C# ASP .NET Core 7 for the rest of the
+              backend and a Postgres database. I choose to host the Website on AWS. The key features
+              of the prototype were, A working map navigable by touch and mouse, debounced url
+              updating to track the map's last location similar to google maps, user authentication,
+              creating maps similar to how Reddit boards are created, and the ability to add and
+              view points on a map with details about the point.
             </p>
             <br />
             <p>
-              Another of the larger challenges was creating the map in Pixi.js, this took quite a
-              bit of time and refactoring to get to a working stable map. Some of my main aims were
-              to keep the map decoupled from the rest of the website and to provide a good user
-              experience with a mouse or touch screen. You can check out the code here. I&apos;m
-              reasonably happy with the result though if I was to continue with the project I would
-              like to refactor it as I continued to learn about mapping techniques I realise that
-              some of my early decisions such as using latitude and longitude heavily might not be
-              ideal.
+              The project was a success. I learnt a lot about the technologies used, project
+              planning, the whole development process, and the importance of testing and
+              documentation. One of the main challenges was creating the map. I decided to use
+              Pixi.js, a 2D graphics library, rather than a mapping library, as one of my aims was
+              to learn more about mapping techniques. This took a fair amount of time and
+              refactoring to get to a stable working map. I am happy with the result, though if I
+              continue with the project, I would like to refactor it further; as I continued to
+              learn about mapping techniques, I realised that some of my early decisions, such as
+              using latitude and longitude heavily, might not be ideal.
             </p>
             <br />
             <p>
-              Overall I&apos;m happy with the result of this project, I learnt a lot about the
-              technologies, planning a project, the full development process, and the importance of
-              testing and documentation. I&apos;m not sure if I will continue with this project in
-              the future, but I&apos;m happy to have the map as a{' '}
-              <Link href="/cottno">portfolio piece</Link>.
+              I hosted the website on AWS but quickly realised it would cost well over £1000 a year
+              to run even on minimum specs. Unfortunately, as the main website is a map, I believe
+              it will always be relatively resource intensive compared to a simple website, and even
+              if I managed to monetise it, I'm not confident that it would be able to sustain
+              itself. Sadly, the project is mothballed for now, but I will take the lessons learned
+              and experience onto the next project!
             </p>
             <br />
             <p>
-              I used AWS to host the website and learnt the final lesson from this project (for now
-              at least), cloud hosting isn&apos;t cheap. Even if I was able to monetise the website
-              via adverts or premium features, a map website is always going to be fairly resource
-              intensive and I&apos;m not confident that it would ever be able to sustain itself. So
-              after launching the website for all of 2 days, I shut it down again and took the
-              lessons learned to start on the next project.
+              You can check out the map <Link href="/cottno">here</Link> and the code for it in this
+              website's <a href="https://github.com/ODSellar/ODSellar.github.io">repo</a> in the
+              cotto directory.
             </p>
           </>
         }
@@ -104,26 +107,26 @@ export default function History({}: IProps): ReactElement {
               After university, I found my first graduate job at The Fry Group. I started there as a
               Junior Programmer and Help Desk Analyst as part of the IT department made up of myself
               and two others. I was tasked with migrating legacy internal tools written in Visual
-              FoxPro into a more modern programming language. Left largely to my own devices, I
-              worked independently to convert the internal tools over to C# WPF .NET with check-ins
-              with the IT manager to make sure that I was making progress.
+              FoxPro into a more modern programming language. Left mainly to my own devices, I
+              worked independently to convert the internal tools to C# WPF .NET with check-ins with
+              the IT manager to ensure I was making progress.
             </p>
             <br />
             <p>
               During my first couple of years at The Fry Group, I converted multiple small internal
               tools over to C# WPF and was working on a larger project to convert the company CRM
-              (Client Relationship Management) system to WPF .NET. It was at this point tragically
-              that my friend and colleague, the IT manager fell ill and was unable to work. Over
-              time I picked up the responsibilities of IT Manager as these were often a higher
-              priority than my own work and after about 6 months was given the title of IT manager.
+              (Client Relationship Management) system to WPF .NET. At this point, tragically, my
+              friend and colleague, the IT Manager, fell ill and was unable to work. Over time I
+              picked up the responsibilities of IT Manager as these were often a higher priority
+              than my own work, and after about 6 months was given the title of IT Manager.
             </p>
             <br />
             <p>
               I worked as the IT Manager for The Fry Group for two years, long enough to see through
               the project converting the CRM system over to WPF .NET to its end, through the
-              uncertainty of the COVID-19 pandemic, and gain valuable skills in time management,
+              uncertainty of the COVID-19 pandemic, and to gain valuable skills in time management,
               organisation, planning, project management, and decision-making. But I craved to get
-              back to creating things and the challenges of software development which lead to my
+              back to creating things and the challenges of software development, which led to my
               next role at Metricell.
             </p>
           </>
@@ -137,18 +140,19 @@ export default function History({}: IProps): ReactElement {
         description={
           <>
             <p>
-              After studying Chemical Engineering at Bath for a year I released that it really
-              wasn&apos;t something I wanted to carry on with. Weighing up my options; chemistry,
-              computer science, and leaving uni to do something completely different. I decided on
-              Computer Science, at this point I had studied one year of computer scene at college,
-              and spent hundreds of hours in the level creator of little big planet 2, these two
-              experiences pushed me towards Computer Science.
+              At the University of Bath, I learnt the fundamentals of Software development. I took
+              modules in maths, computer vision, software engineering, and user experience, to name
+              a few. The modules I enjoyed the most were always the ones involving programming
+              problems and were where I excelled.
             </p>
             <br />
             <p>
-              During my time at Bath I learnt the fundamentals of Software development. The modules
-              that I enjoyed the most were always the ones involving programming problems and these
-              were where I excelled.
+              For my final year project, I investigated how games could be used in education and
+              created an{' '}
+              <a href="https://people.bath.ac.uk/wbh22/LogicGames/games/RegExTD/index.html">
+                educational game
+              </a>{' '}
+              to help teach regular expressions.
             </p>
           </>
         }
