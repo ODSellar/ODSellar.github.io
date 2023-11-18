@@ -25,19 +25,19 @@ export default function History({}: IProps): ReactElement {
             </p>
             <br />
             <p>
-              Currently, I am focused more on larger projects to gain experience designing larger
-              systems. One of the larger projects I've worked on is the Asset Locator project; this
-              tool is intended for councils to lease out local assets to third parties, such as
-              mobile network companies. This project aims to help facilitate the rollout of new
-              technologies like 5G that require more densely clustered cell towers than previous
-              generations of network technology.
+              After a year at Metricell I generally focused on larger projects, high priority work,
+              or assisting with the running of the department. One of the larger projects I worked
+              on is the Asset Locator project; this tool is intended for councils to lease out local
+              assets to third parties, such as mobile network companies. This project aims to help
+              facilitate the rollout of new technologies like 5G that require more densely clustered
+              cell towers than previous generations of network technology.
             </p>
             <br />
             <p>
-              At Metricell, I learnt much more about the full development process, from requirements
-              gathering to CI/CD and how to effectively work with a team of developers. In my spare
-              time, I started expanding my software development and engineering knowledge by reading
-              books, following software blogs, and working on personal projects.
+              At Metricell, I learnt about the full development process, from requirements gathering
+              to CI/CD and how to effectively work with a team of developers. In my spare time, I
+              started expanding my software development and engineering knowledge by reading books,
+              following software blogs, and working on personal projects.
             </p>
           </>
         }
@@ -59,8 +59,8 @@ export default function History({}: IProps): ReactElement {
             <br />
             <p>
               After months of work, I developed a prototype website I was happy with. I used Next.js
-              for the front end and authentication, then C# ASP .NET Core 7 for the rest of the
-              backend and a Postgres database. I choose to host the Website on AWS. The key features
+              for the front end and authentication, then C# ASP.NET Core 7 for the rest of the
+              backend and a Postgres database. I chose to host the website on AWS. The key features
               of the prototype were, A working map navigable by touch and mouse, debounced url
               updating to track the map's last location similar to google maps, user authentication,
               creating maps similar to how Reddit boards are created, and the ability to add and

@@ -143,7 +143,7 @@ export class MapController {
 
   private handleMoveMomentum(pointerUpEvent: PointerEvent): void {
     // Only take the events in the last X ms
-    const momentumLastXms = pointerUpEvent.pointerType === `mouse` ? 40 : 100;
+    const momentumLastXms = pointerUpEvent.pointerType === `mouse` ? 80 : 100;
 
     const filteredEvents = this.moveEventCache.filter(
       (e) => pointerUpEvent.timeStamp - e.timeStamp < momentumLastXms
